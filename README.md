@@ -1,5 +1,6 @@
 # General Overview
 Using Hall Effect sensors with magnets taped onto a physical tic tac toe board, this project aims to produce comparative human and robotic tones and voice lines based on the state of the tic tac toe game being played. X's are considered the "robot" side, while the O's are the human. The project fundamentally acts as a sort of augmentation to the physical board itself, adding audio queues to the game.
+![Image](Images/overview.jpg)
 
 # User Experience
 ## Intended User
@@ -19,8 +20,12 @@ Assuming the software is set up, the game plays normally as the original physica
 - 18 magnets
 - Tic Tac Toe board (purchased at Goodwill for $4)
 
+![Image](Images/arduino.jpg)
+
 ## Component Arrangement
 With an arduino and breadboard mounted on the side of the tic tac toe board, these two components hold the chip components of the instrument together. A mux chip is required on the breadboard, as due to the fact that nine hall effect sensors are needed for each block, and that there are only six analog pins on the arduino, the mux allows for more analog outputs that the instrument needs. These nine hall effect sensors are then placed in various places on the board that allow for them to be in close proximity to the blocks in some shape or form. Pictures of where they were generally placed are shown below. Finally, magnets are taped onto the board, two on each block, in such a fashion that one is faced to have a positive polarization when an O is face up, and a negative polarization when an X is face up (the goal of this being differentiating which block is face up to the software). 
+
+![Image](Images/sensor_spot.jpg)
 
 # Software
 ## Arduino Code
@@ -68,11 +73,4 @@ While I can determine which block is played on each turn, I'm unable to determin
 
 ### Cleaner Code 
 Honestly, while the top half of the code is moderately clean and more understandable, the bottom half was written over a weekend during late nights right before the due date. As such, a lot of it is incredibly messy and there's no documentation to support any of it. Taking the time to go back through everything would help allow this instrument to be sustained.
-
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
