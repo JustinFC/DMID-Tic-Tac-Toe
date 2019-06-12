@@ -59,8 +59,7 @@ Finally, to make this more instrumental, each block, when pressed, sounds a diff
 
 # Demo + Resources
 If not at the top of the page, the link to the repo containing all files may be found [here.](https://github.com/JustinFC/EECS-397-DMID-Tic-Tac-Toe-Final-Project)
-A video demo may be found below by clicking the image.
-[![below by clicking the image.](https://img.youtube.com/vi/6WO7UmFHuy0/0.jpg)](https://youtu.be/6WO7UmFHuy0)
+A video demo may be found [here.](https://youtu.be/6WO7UmFHuy0)
 
 
 # Lessons Learned
